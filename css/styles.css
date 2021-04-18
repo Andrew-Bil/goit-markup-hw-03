@@ -8,6 +8,7 @@
     --logo-font: 'Raleway', sans-serif;
     --main-font: 'Roboto', sans-serif;
     --margin-card: 30px;
+    --border-color: #EEEEEE; 
 }
 
 body {
@@ -560,8 +561,8 @@ border-radius: 0px 0px 4px 4px;
 
 .galery-list-container {
     padding: 20px 24px;
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+    background: var(--title-cl);
+    border: 1px solid var(--border-color);
     box-sizing: border-box;
 }
 
