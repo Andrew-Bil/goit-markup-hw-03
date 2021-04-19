@@ -201,12 +201,12 @@ body {
 .team {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 0px;
+    margin-left: -30px;
 }
 
-.team-list:not(:last-child) {
-    flex-basis: calc((100% - 4 * var(--margin-card)) / 4);
-    margin-right: 30px; 
+.team-list {
+    margin-left: 30px;
+    flex-basis: calc((100% - 4 * 30px) / 4);
 }
 
 .bgn-team {
